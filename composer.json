@@ -1,0 +1,24 @@
+{
+	"name": "fancyguy/wordpress-monolog",
+	"description": "WordPress Monolog Integration",
+	"type": "wordpress-plugin",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Steve Buzonas",
+			"email": "steve@fancyguy.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"FancyGuy\\WordPress\\Plugin\\Monolog": "src/"
+		}
+	},
+	"extra": {
+		"installer-name": "fancyguy-monolog"
+	}
+}
+
